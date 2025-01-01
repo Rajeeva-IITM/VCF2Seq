@@ -1,0 +1,8 @@
+sequence_file: ${oc.env:DATA_DIR}/seq/R64_nucl.fasta
+variant_file: ${oc.env:DATA_DIR}/variant/small.vcf.gz
+sample_name: SAMPLE1
+output:
+  dir: ${oc.env:PROJECT_DIR}
+run_name: Something
+log_file: logs/${sample_name}.log
+err_file: logs/${sample_name}.err

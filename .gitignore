@@ -1,0 +1,5 @@
+vcf2seq/*
+data/*
+.env
+.snakemake/
+logs
